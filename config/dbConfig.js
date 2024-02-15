@@ -1,17 +1,17 @@
 // FOR LOCAL ENVIRONMENT
 module.exports = {
-    HOST: "localhost",
-    USER: "root",
-    PASSWORD: "",
-    DB: "sepcms",
-    dialect: "mysql",
-    pool: {
-      max: 5,
-      min: 0,
-      acquire: 30000,
-      idle: 10000,
-    },
-  };
+  HOST: "sql6.freesqldatabase.com",  
+  USER: "sql6684274",       
+  PASSWORD: "MkdlS7rLpd",       
+  DB: "sql6684274",     
+  dialect: "mysql",   
+  pool: {
+      max: 5,         
+      min: 0,         
+      acquire: 30000, 
+      idle: 10000     
+  }
+};
 
 
 // for production 
